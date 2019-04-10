@@ -5,8 +5,8 @@ function init(){
 var message= document.getElementById("entryinput").value;
 document.getElementById("textoutput").value=message;
 
-var button= document.getElementById('entrybutton');
-button.addEventListener('click', init);
+var button= document.getElementById("entrybutton");
+button.addEventListener("click", init);
 
 
 
